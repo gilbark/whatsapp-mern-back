@@ -7,6 +7,6 @@ const router = express.Router();
 
 // API endpoints
 router.post('/new', messagesController.newMessage);
-
+router.get('/sync', messagesController.sync);
 // Export
 module.exports = router;
